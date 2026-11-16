@@ -1,0 +1,10 @@
+# 运行环境：Python 3.9+，有 CUDA 时自动启用 AMP
+torch>=2.0
+torchvision>=0.15        # ResNet-18 主干与图像增广；缺省时会退化到纯 PyTorch 版本
+numpy>=1.23
+opencv-python>=4.7       # cv2 读视频帧
+scikit-learn>=1.2        # accuracy / precision / recall / F1 / 混淆矩阵
+tqdm>=4.65
+tensorboard>=2.13        # 训练曲线（SummaryWriter）
+matplotlib>=3.6          # 训练曲线图 / 对比柱状图 / 混淆矩阵
+seaborn>=0.12            # 混淆矩阵热力图（缺失时自动退回 plt.imshow）

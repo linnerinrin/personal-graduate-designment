@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.idea/
+venv/
+.venv/
+
+# 数据与产物（体积大 / 可重新生成）
+data/UCF-101/
+data/ucfTrainTestlist/
+checkpoints/
+logs/
+figures/
+confusion_matrix_*.png
+evaluation_report_*.json
+evaluation_report_*.txt
+model_comparison.png
+*_training_curves.png
